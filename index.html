@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - ศติรุต รื่นรมย์</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #3498db;
+        }
+        /* ส่วนต้อนรับและรูปโปรไฟล์ */
+        .hero {
+            background: #34495e;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; /* ทำให้รูปเป็นวงกลม */
+            object-fit: cover; /* ป้องกันรูปยืดหรือเบี้ยว */
+            border: 4px solid #fff;
+            margin-bottom: 15px;
+        }
+        .hero h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #2c3e50;
+        }
+        /* การ์ดแสดงผลงานพร้อมรูปภาพ */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .project-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden; /* ตัดขอบรูปภาพส่วนเกินให้โค้งตามการ์ด */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .project-img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover; /* จัดรูปให้เต็มกรอบพอดี */
+            display: block;
+        }
+        .project-info {
+            padding: 20px;
+        }
+        .project-info h3 {
+            margin-bottom: 10px;
+            color: #3498db;
+        }
+        .contact {
+            text-align: center;
+            background: #ecf0f1;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #2c3e50;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo"><strong>MyPortfolio</strong></div>
+        <nav>
+            <a href="#about">เกี่ยวกับฉัน</a>
+            <a href="#projects">ผลงาน</a>
+            <a href="#contact">ติดต่อ</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <img src=https://media.discordapp.net/attachments/860161123085058109/1506940542804693062/IMG20260521154332.jpg?ex=6afb6aff&is=6afa197f&hm=e0da307acbede1abda74593c94ee9e1d7c7474d77b25612f9e49e03bd9b4ef29&format=webp&width=286&height=640 alt="รูปโปรไฟล์ของฉัน" class="profile-img">
+    </div>
+
+    <section id="about">
+        <h2>เกี่ยวกับฉัน (About Me)</h2>
+        <p style="text-align: center;">
+            สวัสดีครับ ผมสนใจการเพราะมองว่ามันเป็นทักษะที่เอาไปสร้างอะไรได้จริง ทั้งเว็บ แอป หรือระบบต่างๆ ที่ช่วยให้ชีวิตสะดวกขึ้น
+        </p>
+    </section>
+
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>ช่องทางติดต่อ (Contact)</h2>
+        <p>อีเมล: best2307best@gmail.com</p>
+    </section>
+
+
+</body>
+</html>
